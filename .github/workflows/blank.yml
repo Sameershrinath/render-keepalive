@@ -13,8 +13,5 @@ jobs:
       - name: Ping Old App
         run: curl -L https://assessment-rg57.onrender.com || true
 
-      - name: Ping Frontend
-        run: curl -L https://frontend-form-maker.onrender.com || true
-
       - name: Ping Backend
         run: curl -L https://server-form-webapp.onrender.com || true
